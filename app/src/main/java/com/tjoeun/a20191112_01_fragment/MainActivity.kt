@@ -9,6 +9,9 @@ class MainActivity : BaseActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
+
+        setupEvents()
+        setValues()
     }
 
     override fun setupEvents() {
@@ -16,8 +19,8 @@ class MainActivity : BaseActivity() {
     }
 
     override fun setValues() {
-        firstTxt.text = ""
-        secondTxt.text = ""
+        firstTxt.text = "첫 테스트"
+        secondTxt.text = "두번째 테스트"
     }
 
 
