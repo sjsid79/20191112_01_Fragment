@@ -7,6 +7,12 @@
     android:orientation="vertical"
     tools:context=".MainActivity">
 
+    <fragment
+        android:id="@+id/firstFrag"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        class="com.tjoeun.a20191112_01_fragment.fragments.FirstFragment"/>
+
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="150dp"
@@ -20,10 +26,7 @@
             android:textSize="30sp"
             android:textColor="#FFFFFF"
             android:text="첫번째 분할 영역"/>
-
-
     </LinearLayout>
-
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -38,7 +41,6 @@
             android:textSize="30sp"
             android:textColor="#FFFFFF"
             android:text="두번째 분할 영역"/>
-
     </LinearLayout>
 
 </LinearLayout>
